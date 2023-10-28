@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-28T17:27:34 CEST" name="Suite" finished-at="2023-10-28T17:28:01 CEST" duration-ms="27304">
+    <groups>
+    </groups>
+    <test started-at="2023-10-28T17:27:34 CEST" name="AddBestSellerBookToCart Test" finished-at="2023-10-28T17:28:01 CEST" duration-ms="27304">
+      <class name="Tests.AddBestSellerBookToCart">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Tests.AddBestSellerBookToCart@344561e0]" started-at="2023-10-28T17:27:34 CEST" name="launchApp" finished-at="2023-10-28T17:27:38 CEST" duration-ms="4434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:Tests.AddBestSellerBookToCart@344561e0]" started-at="2023-10-28T17:27:38 CEST" name="methodSetup" finished-at="2023-10-28T17:27:38 CEST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="test2()[pri:0, instance:Tests.AddBestSellerBookToCart@344561e0]" started-at="2023-10-28T17:27:38 CEST" name="test2" finished-at="2023-10-28T17:27:48 CEST" duration-ms="10271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AddBestSellerBookToCart@344561e0]" started-at="2023-10-28T17:27:48 CEST" name="tearDown" finished-at="2023-10-28T17:27:49 CEST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AddBestSellerBookToCart -->
+      <class name="Tests.VerifyBookRank">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Tests.VerifyBookRank@3704122f]" started-at="2023-10-28T17:27:49 CEST" name="launchApp" finished-at="2023-10-28T17:27:53 CEST" duration-ms="4160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:Tests.VerifyBookRank@3704122f]" started-at="2023-10-28T17:27:53 CEST" name="methodSetup" finished-at="2023-10-28T17:27:53 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="test1()[pri:0, instance:Tests.VerifyBookRank@3704122f]" started-at="2023-10-28T17:27:53 CEST" name="test1" finished-at="2023-10-28T17:27:56 CEST" duration-ms="2844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifyBookRank@3704122f]" started-at="2023-10-28T17:27:56 CEST" name="tearDown" finished-at="2023-10-28T17:27:57 CEST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Tests.VerifyBookRank@3704122f]" started-at="2023-10-28T17:27:57 CEST" name="launchApp" finished-at="2023-10-28T17:28:00 CEST" duration-ms="3173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:Tests.VerifyBookRank@3704122f]" started-at="2023-10-28T17:28:00 CEST" name="methodSetup" finished-at="2023-10-28T17:28:00 CEST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="test2()[pri:0, instance:Tests.VerifyBookRank@3704122f]" started-at="2023-10-28T17:28:00 CEST" name="test2" finished-at="2023-10-28T17:28:00 CEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifyBookRank@3704122f]" started-at="2023-10-28T17:28:00 CEST" name="tearDown" finished-at="2023-10-28T17:28:01 CEST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.VerifyBookRank -->
+    </test> <!-- AddBestSellerBookToCart Test -->
+  </suite> <!-- Suite -->
+</testng-results>
