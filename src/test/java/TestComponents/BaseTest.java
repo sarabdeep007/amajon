@@ -54,6 +54,7 @@ public class BaseTest {
 			if("true".equals(System.getProperty("headless")))
 			{
 				options.addArguments("--headless");
+				logger.info("started headless chrome");
 			}
 			
 			driver = new ChromeDriver(options);
@@ -63,9 +64,11 @@ public class BaseTest {
 			FirefoxOptions firefoxOptions = new FirefoxOptions();
 			firefoxOptions.addArguments("--disable --notifications");
 			
+			
 			if("true".equals(System.getProperty("headless")))
 			{
-				firefoxOptions.addArguments("headless");
+				firefoxOptions.addArguments("-headless");
+				logger.info("started headless firefox");
 			}
 			driver = new FirefoxDriver(firefoxOptions);
 			break;
